@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 0.6rem;
+  /* padding: 1rem; */
+  border-radius: 10px;
+  max-width: max-content;
+  height:auto;
+  margin: auto;
+  transition: all 0.3s ease-in;
+}
+
+.card-item:hover{
+  scale: 1.01;
+
+
+}
+
+/* .card-item:nth-child(2) {
+  font-size: 1.2rem;
+}
+.card-item:nth-child(3){
+  font-size: 1.2rem
+}
+ */
+
+.card-item img {
+  width: 100%;
+  height: auto;
+  /* max-width: fit-content; */
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-item h3 {
+  white-space: nowrap;
+}
+
+/* .swiper {
+  border: 1px solid red;  
+} */
+
+.price {
+  padding-left: 0.3rem;
+  font-size: 1.5rem;
+  color: orange;
+  font-weight: bold;
+}
+
+.schedule {
+  color: orange;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;   /* change arrow color */
+  font-weight: bold;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #ff6600;
+}
