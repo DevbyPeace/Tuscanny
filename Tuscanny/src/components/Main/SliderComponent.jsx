@@ -18,8 +18,8 @@ function SliderComponent() {
         disableOnInteraction: false,
         pauseOnMouseEnter: true,
       }}
-      loop={true} // ✅ infinite loop
-      speed={2000} // ✅ transition duration (1s for smooth slide)
+      loop={true} 
+      speed={2000} 
       className="overall-box"
     >
       {/* <SliderButtons /> */}
