@@ -4,17 +4,18 @@
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 90px;
   font-size: 0.9rem;
   text-align: start;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .summary img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
   /* scale: 0.8; */
   /* border: 1px solid red; */
+  scale: 0.9;
 }
 
 .summary .overlay {
@@ -27,7 +28,7 @@
 .summary {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2rem;
   /* padding: 2rem; */
   flex-wrap: wrap; /* allows stacking on smaller screens */
@@ -35,7 +36,7 @@
 }
 
 .summary img {
-  width: 400px;
+  width: 70%;
   max-width: 100%; /* ensures image shrinks */
   height: auto;
   flex: 1;
