@@ -2,15 +2,15 @@ import MainHeader from "./MainHeader";
 import SliderComponent from "./SliderComponent";
 import Summary from "./Summary";
 import "./Main.css";
+import Offers from "./Offers";
 
 function Main() {
   return (
     <section className="main-content">
-    <div className="r-container">
-        <MainHeader />
+      <MainHeader />
       <SliderComponent />
-    </div>
-    
+      <Summary/>
+      <Offers/>
     </section>
   );
 }

@@ -1,19 +1,16 @@
 .main-content {
   background-color: #f5f5f5;
-  /* padding-top: 123px; */
-  padding-top: 7rem;
-  padding-left: 150px;
-  padding-right: 250px;
-
-
 
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  justify-content: flex-start;
+  gap: .5rem;
+  /* border: 1px solid red; */
+  width: 75%;
+  max-width: 1200px;
+  margin: 5rem auto 5rem auto;
+  height: calc(100vh - 10rem);
+  height: fit-content;
+  /* background-color: black; */
 }
 
-
-.r-container{
-   max-width: 1000px; /* or whatever fits your design */
-  margin: 0 auto; 
-}

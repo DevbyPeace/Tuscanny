@@ -1,0 +1,87 @@
+.summary {
+  /* border: 1px solid red;   */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 0.9rem;
+  text-align: start;
+  height: 80vh;
+}
+
+.summary img {
+  max-width: 100%;
+  height: auto;
+  /* scale: 0.8; */
+  /* border: 1px solid red; */
+}
+
+.summary .overlay {
+  /* border: 1px solid red; */
+  padding: 2rem;
+  line-height: 1.5rem;
+  width: 50%;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  /* padding: 2rem; */
+  flex-wrap: wrap; /* allows stacking on smaller screens */
+  height: fit-content;
+}
+
+.summary img {
+  width: 400px;
+  max-width: 100%; /* ensures image shrinks */
+  height: auto;
+  flex: 1;
+}
+
+.summary .overlay {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .summary {
+    flex-direction: column; /* stack vertically */
+    text-align: center;
+  }
+
+  .summary img {
+    width: 80%;
+  }
+
+  .summary .overlay {
+    max-width: 90%;
+  }
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  /* border: 1px solid red; */
+}
+
+.stats {
+  display: flex;
+  /* border: 1px solid red; */
+  gap: 1.5rem;
+  /* width: 50%; */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.stats span {
+  font-size: 1.5rem;
+  color: orange;
+  font-weight: bold;
+}
